@@ -1,0 +1,28 @@
+{
+  "name": "claude-count",
+  "version": "1.0.0",
+  "description": "A tool to count how many Claude tokens are in a file.",
+  "main": "index.js",
+  "bin": {
+    "claude-count": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacker/claude-count.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lacker/claude-count/issues"
+  },
+  "homepage": "https://github.com/lacker/claude-count#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.50.2",
+    "commander": "^13.1.0"
+  }
+}
