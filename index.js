@@ -8,7 +8,7 @@ const { Anthropic } = require("@anthropic-ai/sdk");
 program
   .name("claude-count")
   .description("Count Claude API tokens in a file or stdin")
-  .version("0.0.1")
+  .version("1.0.0")
   .argument(
     "[filename]",
     "File to count tokens from (optional, defaults to stdin)"
